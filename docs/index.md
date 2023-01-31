@@ -6,16 +6,15 @@ sidebar_position: 1
 
 :::note WIP
 
-These docs are a Work In Progress. So don't freak out if you see any typos or bugs. Just let us know :)
+These docs are a Work In Progress. So let us know if you see any typos or bugs.
 
 :::
 
 
 ## What is the purpose of the Dyson Protocol?
 
-To lower the barrier of entry to making
-distributed web apps. To eliminate a major single point of failure
-in crypto, the user interface, by hosting the frontend on-chain.
+1. To lower the barrier of entry in making distributed web apps by using an existing popular language, Python.
+2. To eliminate a major single point of failure in crypto, the user interface, by hosting the frontend on-chain.
 
 ## What are the key features and functionalities?
 
