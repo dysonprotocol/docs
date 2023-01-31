@@ -69,7 +69,7 @@ In the future it will be possible to set longer experation times and be prorated
 - Alice pays 20000dys (twenty thousand is 1% of 2000000dys) for the Community Pool
 - Bob sees that example.dys is a good name for his project
 - Bob buys example.dy using [names/sendMsgBuy](https://dys.dysonprotocol.com/commands?command=names/sendMsgBuy)
-- Alice receives 2000000dys for a profit of 1998000dys
+- Alice receives 2000000dys from Bob
 
 ## Why 30 days and no rebate or prorating?
 
