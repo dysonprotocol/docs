@@ -2,11 +2,11 @@
 sidebar_position: 3
 ---
 
-# Names
+# .dys Names
 
-## What are Names?
+## What are .dsy Names?
 
-A Name is a human readable alias for an address.
+A Name is a human readable alias for an address like `example.dys`
 
 The main fields a Name has is:
 
@@ -14,6 +14,13 @@ The main fields a Name has is:
 - `destiantion` - The address that name references, can be different from the "owner"
 - `expiration_height` - The block height the name will expire
 - `price` - Asking price, anyone can buy this name from the owner for this amount. And this asking price is used for calculating the Registration fee (1%). See [Why do Names have a price?](#why-do-names-have-a-price).
+
+
+:::info
+
+Names must be **lowercase** and end in `.dys`.
+
+:::
 
 See the full spec in the proto definition in [name.proto](https://gitlab.com/dysonproject/dyson/-/blob/master/chain/proto/names/name.proto).
 
