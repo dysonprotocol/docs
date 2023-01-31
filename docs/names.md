@@ -13,7 +13,7 @@ The main fields a Name has is:
 - `owner` - The address that owns the name
 - `destiantion` - The address that name references, can be different from the "owner"
 - `expiration_height` - The block height the name will expire
-- `price` - Asking price, anyone can buy this name from the owner for this amount. And this asking price is used for calculating the Registration fee (1%). See [Why do Names have a price?](#why-do-names-have-a-price).
+- `price` - Asking price, anyone can buy this name from the owner for this amount. And this asking price is used for calculating the Registration fee (1%). See [Why do Names have a price?](#why-do-names-have-prices).
 
 
 :::info
