@@ -70,7 +70,7 @@ In the future it will be possible to set longer experations times and be prorate
 
 ## What is a good price?
 
-A good price is one that you would be happy to sell you name for.
+A good price is one that you would be happy to sell the name for.
 
 ## How do I get a name?
 
