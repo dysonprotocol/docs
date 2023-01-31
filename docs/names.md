@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## What are Names?
 
-A Name is a globally unique way to refrence an address.
+A Name is a human readable alias for an address.
 
 The main fields a Name has is:
 
@@ -19,7 +19,7 @@ See the full spec in the proto definition in [name.proto](https://gitlab.com/dys
 
 ## How are Names useful?
 
-Name owners have several privilages, better subdomains and ability to mint native coins. (TODO: make tutorial for minting)
+Name owners have several privileges, better subdomains and ability to mint native coins. (TODO: make tutorial for minting)
 
 Also Names can be used to verify your Discord account to get an advanced role.
 
@@ -51,7 +51,7 @@ The registration and extension time is not prorated. It is 30days from when the 
 Names are paid for using a form of [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax) which funds the [Community Pool](https://dys-api.dysonprotocol.com/cosmos/distribution/v1beta1/community_pool).
 Specifically Names are registered for 30 days and pay 1% of the asking price to the community pool. At any point within the 30 days the Name can be [Extended](https://dys.dysonprotocol.com/commands?command=names/sendMsgSetPriceAndExtend) with a new asking price and pay the fee of 1%.
 
-In the future it will be possible to set longer experations times and be prorated for any fees already paid.
+In the future it will be possible to set longer experation times and be prorated for any fees already paid.
 
 ### Example
 
@@ -62,16 +62,16 @@ In the future it will be possible to set longer experations times and be prorate
 - Alice pays 20000dys (twenty thousand is 1% of 2000000dys) for the Community Pool
 - Bob sees that example.dys is a good name for his project
 - Bob buys example.dy using [names/sendMsgBuy](https://dys.dysonprotocol.com/commands?command=names/sendMsgBuy)
-- Alice recieves 2000000dys for a profit of 1998000dys
+- Alice receives 2000000dys for a profit of 1998000dys
 
 ## Why 30 days and no rebate or prorating?
 
-Dyson may be the first chain to implement a Harberger Tax nativly in the protocol for digitally scare goods.
+Dyson may be the first chain to implement a Harberger Tax natively in the protocol for digitally scarce goods.
 
 This is very different from pure property rights like Namecoin (and the subsequent squatting problems they have).
 
 1. The goal is for people to be forced to review the price they have set and deliberately set the optimal price again to minimize surprises if someone buys it.
-2. It is easier to reason about: 30 days. No rebates. There is no opportunity for someone to accidetally pay for a decade and empty their wallet.
+2. It is easier to reason about: 30 days. No rebates. There is no opportunity for someone to accidentally pay for a decade and empty their wallet.
 
 ## What is a good price?
 

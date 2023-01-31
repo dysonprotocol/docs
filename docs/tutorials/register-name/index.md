@@ -11,7 +11,7 @@ See [Names](/names) for background and technical details.
 ## Copy this code
 
 There is no UI for registering a name yet. So you will need a little programming experience.
-If you have never programmed, you may get fustrated because it looks complex, but don't give up, just ask for help in Discord.
+If you have never programmed, you may get frustrated because it looks complex, but don't give up, just ask for help in Discord.
 
 Copy this code to your Script and save it.
 

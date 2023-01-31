@@ -47,7 +47,7 @@ Once you have connected to the testnet join our discord and request some testnet
 DYS. You will need testnet DYS to complete the next step. 
 
 1. Join our [Discord server](https://discord.gg/JArrt6KPAR)
-2. Copy your new DYS address from the Keplr extension, make sure "Dyson Protocol" is seleleted 
+2. Copy your new DYS address from the Keplr extension, make sure "Dyson Protocol" is selected 
 3. Paste your DYS address in the `💸testnet-faucet` channel and Dyson Helper Bot will send you coins
 4. Go to https://dys-testnet.dysonvalidator.com/ 
 5. Click the menu button `Connect with Keplr`
