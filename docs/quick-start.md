@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-#  Quick Start Tutorial
+#  Quick Start
 
 Let's discover the **Dyson Protocol in less than 5 minutes**.
 
@@ -65,7 +65,7 @@ print "hello {name}!" or "Hello World!" if name is empty.
 2. Paste the following code
 3. Click Save
 
-``` python
+``` python showLineNumbers
 def say_hello(name: str):
     if not name:
         name = "world"
