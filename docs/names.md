@@ -42,15 +42,11 @@ And the Script page on the dashboard:
 
 ## How long is a Name registered?
 
-Currently Names are registed for **30 days** as calculated by block height.
-
-:::info
+Currently Names are registed for **30 days** as calculated by block height of the registration or extension transaction.
 
 The registration and extension time is not prorated. It is 30days from when the transaction was sent. If a Name was registered 2 days ago and I want to change the price using [names/sendMsgSetPriceAndExtend](https://dys.dysonprotocol.com/commands?command=names/sendMsgSetPriceAndExtend), the new `expiration_height` will be 30 days from now.
 
-:::
-
-## Why do Names have a price?
+## Why do Names have prices?
 
 Names are paid for using a form of [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax) which funds the [Community Pool](https://dys-api.dysonprotocol.com/cosmos/distribution/v1beta1/community_pool).
 Specifically Names are registered for 30 days and pay 1% of the asking price to the community pool. At any point within the 30 days the Name can be [Extended](https://dys.dysonprotocol.com/commands?command=names/sendMsgSetPriceAndExtend) with a new asking price and pay the fee of 1%.
@@ -68,10 +64,19 @@ In the future it will be possible to set longer experations times and be prorate
 - Bob buys example.dy using [names/sendMsgBuy](https://dys.dysonprotocol.com/commands?command=names/sendMsgBuy)
 - Alice recieves 2000000dys for a profit of 1998000dys
 
+## Why 30 days and no rebate or prorating?
+
+Dyson may be the first chain to implement a Harberger Tax nativly in the protocol for digitally scare goods.
+
+This is very different from pure property rights like Namecoin (and the subsequent squatting problems they have).
+
+1. The goal is for people to be forced to review the price they have set and deliberately set the optimal price again to minimize surprises if someone buys it.
+2. It is easier to reason about: 30 days. No rebates. There is no opportunity for someone to accidetally pay for a decade and empty their wallet.
+
 ## What is a good price?
 
 A good price is one that you would be happy to sell the name for.
 
-## How do I get a name?
+## How do I get Names?
 
 See [How to Register a Dys Name](tutorials/register-name)

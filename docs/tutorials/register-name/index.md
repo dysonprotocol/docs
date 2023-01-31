@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# How to Register a .dys Name
+# How to Register .dys Names
 
-## What is a Name?
+## What are Names
 
 See [Names](/names) for background and technical details.
 
