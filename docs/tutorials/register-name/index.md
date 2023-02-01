@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# How to Register .dys Names
+# How to Register Dys Names
 
 ## What are Names
 
