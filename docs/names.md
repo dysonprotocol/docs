@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# .dys Names
+# Dys Names
 
 ## What are .dsy Names?
 
