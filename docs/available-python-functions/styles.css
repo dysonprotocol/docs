@@ -1,0 +1,13 @@
+html {
+  scroll-padding-top: 100px;
+}
+.docstring {
+  white-space: pre-line;
+}
+.doc:target {
+  background-color: #ffa;
+}
+
+.doc {
+  font-family: monospace;
+}

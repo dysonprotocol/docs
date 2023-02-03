@@ -1,0 +1,39 @@
+---
+title: Available Python Functions
+sidebar_position: 5
+---
+
+import docs from "./dyslang_docs.json";
+import styles from "./styles.css";
+
+export const Doc = (name, docs) => {
+  return <pre>{JSON.stringify(docs, null, 2)}</pre>;
+};
+
+export const DocList = ({ docs }) => {
+  toc.length = 0;
+  return Object.keys(docs).map((item, i) => {
+    const d = docs[item];
+    toc.push({ value: item, id: item, level: 2 });
+    return (
+      <dl key={i} className="doc" id={item}>
+        <dt>
+          <strong>
+            <a href={"#" + item}>
+              {item}
+              {d.init_definition}
+              {d.definition}
+            </a>
+          </strong>
+        </dt>
+        <dl>
+          <pre>{d.docstring}</pre>
+        </dl>
+      </dl>
+    );
+  });
+};
+
+<div className="doclist">
+  <DocList docs={docs}></DocList>
+</div>

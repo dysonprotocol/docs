@@ -1,0 +1,37 @@
+---
+sidebar_position: 4
+---
+
+import operators from "./operators.json";
+import nodes from "./nodes.json";
+
+# Supported Python Syntax
+
+export const Node = ({ name }) => {
+  return (
+    <li>
+      <strong>ast.{name}</strong>
+      {" - "}
+      <a href={"https://docs.python.org/3/library/ast.html#ast." + name}>
+        {" "}
+        {"https://docs.python.org/3/library/ast.html#ast." + name}{" "}
+      </a>
+    </li>
+  );
+};
+
+export const NodeList = ({ nodes }) => {
+  return nodes.map((x) => <Node name={x}></Node>);
+};
+
+## Operators
+
+<ul className="nodelist">
+  <NodeList nodes={operators}></NodeList>
+</ul>
+
+## Syntax
+
+<ul className="nodelist">
+  <NodeList nodes={nodes}></NodeList>
+</ul>
