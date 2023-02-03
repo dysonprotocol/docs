@@ -36,6 +36,6 @@ will have access the full raw HTTP request and has full control of the HTTP resp
 
 ## How to get support or report bugs?
 
-Head over to [GitHib](https://github.com/orgs/dysonprotocol/discussions) and drop a comment.
+Head over to [GitHub](https://github.com/orgs/dysonprotocol/discussions) and drop a comment.
 
 Or join [Discord](https://discord.gg/FZfKmSJCyP), verify your account, and ask for help there.
