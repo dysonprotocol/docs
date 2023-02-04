@@ -19,19 +19,18 @@ These docs are a Work In Progress. So let us know if you see any typos or bugs.
 ## What are the key features and functionalities?
 
 ### Python
-Scripts, also known as smart-contracts, are written in a subset of Python.
+Scripts, also known as smart-contracts, are written in a <a href="/available-python-functions">subset of Python</a>.
 This allows developers to leverage their existing knowlage of the Python syntax
-and standard libraries.
+and <a href="available-python-functions">standard libraries</a>.
 
 
-### Forms
-Functions written in Scripts will have their definition automatically parsed
-into jsonschema and rendered to html forms in the dashboard. This allows users
-to interact with the Script without the developer learning JS, protobufs, or
+### Automatic UI Generation
+Function definitions are  automatically parsed into jsonschema and rendered to HTML forms in the dashboard. This allows users
+to interact with the Script without the developer learning JS, Protobufs, or
 needing to interact with the wallet directly. 
 
-### HTTP
-Dyson uses the popular WSGI protocol so Scripts that make the appropriate `application()` function 
+### Full HTTP control
+Dyson uses the popular <a href="https://wsgi.readthedocs.io/en/latest/learn.html">WSGI protocol</a> so Scripts that make the appropriate `application()` function 
 will have access the full raw HTTP request and has full control of the HTTP response sent to the client.
 
 ## How to get support or report bugs?

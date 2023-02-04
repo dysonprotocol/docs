@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
 ---
+import Image from '@theme/IdealImage';
+
 
 # How to Register Dys Names
 
@@ -101,4 +103,4 @@ If you get the error `MemoryError('Out of Gas')`, you can either simply run the 
 
 :::
 
-![](./register-name.png)
+<Image img={require('./register-name.png')} />

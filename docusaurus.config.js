@@ -21,7 +21,6 @@ const config = {
   //
   trailingSlash: false,
 
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -41,15 +40,13 @@ const config = {
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://gitlab.com/dysonproject/docs/-/tree/develop/",
+          editUrl: "https://gitlab.com/dysonproject/docs/-/tree/develop/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://gitlab.com/dysonproject/docs/-/tree/develop/",
+          editUrl: "https://gitlab.com/dysonproject/docs/-/tree/develop/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -57,7 +54,18 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    [
+      "@docusaurus/plugin-ideal-image",
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
+      },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
