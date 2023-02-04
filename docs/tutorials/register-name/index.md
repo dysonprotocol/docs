@@ -4,9 +4,9 @@ sidebar_position: 2
 
 # How to Register Dys Names
 
-## What are Names
+## What are Names?
 
-See [Names](/names) for background and technical details.
+See the page [Dys Names](/names) for background and technical details.
 
 ## Copy this code
 

@@ -9,9 +9,9 @@ import styles from "./styles.css";
 export const Doc = (name, docs) => {
   return <pre>{JSON.stringify(docs, null, 2)}</pre>;
 };
+toc.length = 0;
 
 export const DocList = ({ docs }) => {
-  toc.length = 0;
   return Object.keys(docs).map((item, i) => {
     const d = docs[item];
     toc.push({ value: item, id: item, level: 2 });
