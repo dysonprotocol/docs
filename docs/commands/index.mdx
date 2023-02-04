@@ -1,0 +1,45 @@
+---
+sidebar_position: 7
+title: Dyson Chain Commands
+---
+
+import commandSchema from "./command_schema.json";
+let lastModule = "";
+const log = (type) => console.log.bind(console, type);
+
+# Dyson Chain Commands
+
+export const Command = ({ name }) => {
+  let header = null;
+  const command = commandSchema[name];
+  if (command.module_name !== lastModule) {
+    toc.push({ value: command.module_name, id: command.module_name, level: 2 });
+    header = <h2 id={command.module_name}>{command.module_name}</h2>;
+    lastModule = command.module_name;
+  }
+  toc.push({ value: command.service_name + command.name, id: name, level: 3 });
+  return (
+    <>
+      {header}
+      <div>
+        <strong>
+          <a href={"https://dys.dysonprotocol.com/commands?command=" + name}>
+            {name}
+          </a>
+        </strong>
+      </div>
+    </>
+  );
+};
+
+export const CommandList = ({ commands }) => {
+  return Object.entries(commands).map(([key, value]) => (
+    <Command name={key} schema={value}></Command>
+  ));
+};
+toc.length = 0;
+
+
+<CommandList commands={commandSchema}></CommandList>
+
+<pre>{JSON.stringify(commandSchema, null, 2)}</pre>
