@@ -57,7 +57,7 @@ Good job! Now you can do the tutorial using the testnet and your testnet DYS
 
 ## Hello World function
 
-The classic "Hello world" is in the simplest function you can make on the Dyson Protocol.
+The classic "Hello world" is the simplest function you can make on the Dyson Protocol.
 The function will have a single parameter called "name". And when run, will either
 print "hello {name}!" or "Hello World!" if name is empty.
 

@@ -20,7 +20,7 @@ These docs are a Work In Progress. So let us know if you see any typos or bugs.
 
 ### Python
 Scripts, also known as smart-contracts, are written in a <a href="/available-python-functions">subset of Python</a>.
-This allows developers to leverage their existing knowlage of the Python syntax
+This allows developers to leverage their existing knowledge of the Python syntax
 and <a href="available-python-functions">standard libraries</a>.
 
 
