@@ -17,7 +17,7 @@ export const Command = ({ name }) => {
     header = <h2 id={command.module_name}>{command.module_name}</h2>;
     lastModule = command.module_name;
   }
-  toc.push({ value: command.service_name + command.name, id: name, level: 3 });
+  //toc.push({ value: command.service_name + command.name, id: name, level: 3 });
   return (
     <>
       {header}
@@ -33,10 +33,10 @@ export const Command = ({ name }) => {
 };
 
 export const CommandList = ({ commands }) => {
+  toc.length = 0;
   return Object.entries(commands).map(([key, value]) => (
     <Command name={key} schema={value}></Command>
   ));
 };
-toc.length = 0;
 
 <CommandList commands={commandSchema}></CommandList>

@@ -83,6 +83,11 @@ const config = {
             label: "Docs",
           },
           {
+            to: "blog",
+            position: "left",
+            label: "Blog",
+          },
+          {
             href: "https://dys.dysonprotocol.com/",
             label: "Dashboard",
             position: "right",
