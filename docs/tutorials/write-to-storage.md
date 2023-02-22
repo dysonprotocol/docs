@@ -107,7 +107,7 @@ Both of these example functions return the result of the `_chain` function call.
 
 ## Update
 
-This will update a existing Storage object at the given `index` or will return an
+This will update an existing Storage object at the given `index` or will return an
 error if it is not there.
 
 If `force=True` it will never raise an exception and will always write to the index.
@@ -127,7 +127,7 @@ def update(index: str, data: str, force: bool):
 
 ## Delete
 
-This will delete a existing Storage object at the given `index` or will return an
+This will delete an existing Storage object at the given `index` or will return an
 error if it is not there.
 
 ```python showLineNumbers

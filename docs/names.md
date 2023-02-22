@@ -51,7 +51,7 @@ And the Script page on the dashboard:
 
 Currently Names are registed for **30 days** as calculated by block height of the registration or extension transaction.
 
-The registration and extension time is not prorated. It is 30days from when the transaction was sent. If a Name was registered 2 days ago and I want to change the price using [names/sendMsgSetPriceAndExtend](https://dys.dysonprotocol.com/commands?command=names/sendMsgSetPriceAndExtend), the new `expiration_height` will be 30 days from now.
+The registration and extension time is not prorated. It is 30 days from when the transaction was sent. If a Name was registered 2 days ago and I want to change the price using [names/sendMsgSetPriceAndExtend](https://dys.dysonprotocol.com/commands?command=names/sendMsgSetPriceAndExtend), the new `expiration_height` will be 30 days from now.
 
 ## Why do Names have prices?
 
