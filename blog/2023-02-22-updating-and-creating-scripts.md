@@ -3,6 +3,7 @@ slug: updating-and-creating-scripts
 title: Updating and Creating Scripts
 authors: [sybil]
 tags: [scripts]
+draft: true
 ---
 
 First, let's discuss these two very important commands: `dyson/sendMsgUpdateScript` and `dyson/sendMsgDeployAutonomousScript`
@@ -45,7 +46,7 @@ See: https://dys-testnet.dysonvalidator.com/commands?command=dyson/sendMsgDeploy
 
 ### Group Policy Script
 
-A Group Policy is an account and address associated with a group and a decision policy. A group can have many policies which all have their own individual address and script. A decision policy is the way memebers of the group vote on proposals to be excecuted by that group policy.
+A Group Policy is an account and address associated with a group and a decision policy. A group can have many policies which all have their own individual address and script. A decision policy is the way members of the group vote on proposals to be excecuted by that group policy.
 
 Importantly this can control how the script of a policy is updated or what messages are run. You can trust this as much as you trust the decision policy of the group itself.
 
