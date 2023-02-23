@@ -2,6 +2,7 @@
 title: Creating and Updating Scripts on Dyson Protocol
 description: How to create and manage scripts on the Dyson Protocol
 authors: [sybil]
+image: bg.png
 tags: [scripts, autonomous scripts, DeFi, DAOs]
 ---
 
