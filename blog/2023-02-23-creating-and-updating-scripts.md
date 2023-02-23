@@ -1,5 +1,5 @@
 ---
-title: "Coming Soon: Autonomous Scripts"
+title: Creating and Updating Scripts on Dyson Protocol
 authors: [sybil]
 tags: [scripts]
 ---
@@ -9,16 +9,16 @@ tags: [scripts]
 
 A Script can be **created** by:
 
-- creating a new wallet account and calling [`dyson/sendMsgUpdateScript`](https://dys-testnet.dysonvalidator.com/commands?command=dyson/sendMsgUpdateScript) 
-- or creating a new [Group Policy](https://dys-testnet.dysonvalidator.com/commands?command=cosmos.group.v1/sendMsgCreateGroupPolicy) and calling  [`dyson/sendMsgUpdateScript`](https://dys-testnet.dysonvalidator.com/commands?command=dyson/sendMsgUpdateScript) 
+- creating a new wallet account and calling [`dyson/sendMsgUpdateScript`](https://dys.dysonprotocol.com/commands?command=dyson/sendMsgUpdateScript) 
+- or creating a new [Group Policy](https://dys.dysonprotocol.com/commands?command=cosmos.group.v1/sendMsgCreateGroupPolicy) and calling  [`dyson/sendMsgUpdateScript`](https://dys.dysonprotocol.com/commands?command=dyson/sendMsgUpdateScript) 
 - calling [`dyson/sendMsgDeployAutonomousScript`](https://dys-testnet.dysonvalidator.com/commands?command=dyson/sendMsgDeployAutonomousScript)
 
 Scripts can only be **updated** by:
 
-- calling [`dyson/sendMsgUpdateScript`](https://dys-testnet.dysonvalidator.com/commands?command=dyson/sendMsgUpdateScript) on themselves  
+- calling [`dyson/sendMsgUpdateScript`](https://dys.dysonprotocol.com/commands?command=dyson/sendMsgUpdateScript) on themselves  
 
 :::info Preview
-The links here are for the testnet because, at the time of this post, they have not been deployed on mainnet.
+The links for deploying autonomous scripts are for the testnet because, at the time of this post, they have not been deployed on mainnet.
 :::
 
 <!-- truncate -->
@@ -32,7 +32,7 @@ The links here are for the testnet because, at the time of this post, they have 
 This is the command we are all familiar with. This is the way you can save your changes to your script with your wallet account. It allows an account to update the script of the same address. When you click "save" when editing your script, the dashboard is using this command to save your changes.
 
 :::info
-The only way a script can be modified is by calling [`dyson/sendMsgUpdateScript`](https://dys-testnet.dysonvalidator.com/commands?command=dyson/sendMsgUpdateScript) on itself.
+The only way a script can be modified is by calling [`dyson/sendMsgUpdateScript`](https://dys.dysonprotocol.com/commands?command=dyson/sendMsgUpdateScript) on itself.
 :::
 
 ### Deploy Autonomous Script
@@ -74,7 +74,7 @@ Importantly this can control how the script of a policy is updated or what messa
 
 The group admin and members can be any type of account. The group admin can be a policy account (that is controlled by members votes), and externally owned account (controlled by a private key), or even an autonomous script's account (controlled only by that scripts code). 
 
-[This is the one way to start a project]( https://dys-testnet.dysonvalidator.com/commands?command=cosmos.group.v1/sendMsgCreateGroupWithPolicy) that may begin with single point of ownership, and over time transition to community decisions or even because self administrated.
+[This is the one way to start a project]( https://dys.dysonprotocol.com/commands?command=cosmos.group.v1/sendMsgCreateGroupWithPolicy) that may begin with single point of ownership, and over time transition to community decisions or even because self administrated.
 
 
 
