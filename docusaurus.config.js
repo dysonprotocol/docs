@@ -92,7 +92,12 @@ const config = {
           },
           {
             href: "https://dys.dysonprotocol.com/",
-            label: "Dashboard",
+            label: "Mainnet",
+            position: "right",
+          },
+          {
+            href: "https://dys-testnet.dysonvalidator.com/",
+            label: "Testnet",
             position: "right",
           },
           {
