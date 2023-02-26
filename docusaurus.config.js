@@ -76,7 +76,8 @@ const config = {
         title: "Dyson Protocol",
         logo: {
           alt: "Dyson Protocol Logo",
-          src: "img/logo.svg",
+          src: "img/logo-inverted.svg",
+          srcDark: "img/logo.svg",
         },
         items: [
           {
