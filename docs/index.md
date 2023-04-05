@@ -4,12 +4,6 @@ sidebar_position: 1
 
 # Introduction
 
-:::note WIP
-
-These docs are a Work In Progress. So let us know if you see any typos or bugs.
-
-:::
-
 
 ## What is the purpose of the Dyson Protocol?
 
