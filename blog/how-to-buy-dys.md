@@ -13,7 +13,7 @@ Are you excited about diving into the world of Decentralized Web Apps (DWapps) u
 
 Before you can buy DYS, you'll need to have either Osmosis (ATOM) or Wrapped Bitcoin (WBTC) in your Kepler Wallet. If you don't have a Kepler Wallet yet, visit https://www.keplr.app/ to create one.
 
-*image here* 
+![](./how-to-buy-dys/1.png)
 
 **Step 2: Buy Osmosis (ATOM)**
 
