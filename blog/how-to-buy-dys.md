@@ -27,13 +27,17 @@ Navigate to the Osmosis Frontier by visiting the following URL: https://frontier
 
 Click on the "Trade Pair" button on the Osmosis Frontier page. This will open a new window where you can swap your Osmosis (ATOM) for DYS tokens.
 
-*image here* 
+![](./how-to-buy-dys/2.png)
 
 **Step 5: Execute the swap**
 
 Enter the amount of Osmosis (ATOM) you want to swap for DYS. Review the transaction details, including the exchange rate and any fees. Once you're satisfied, confirm the transaction to complete the swap. We suggest using the lowest fee.
 
+![](./how-to-buy-dys/3.png)
+
 **Step 6: Congratulations, you now own DYS tokens!**
+
+![](./how-to-buy-dys/4.png)
 
 You've successfully swapped your Osmosis (ATOM) for DYS tokens on the Osmosis Frontier. The DYS tokens will now be available to withdrawal to your Kepler Wallet.
 
