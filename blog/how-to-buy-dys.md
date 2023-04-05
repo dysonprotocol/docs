@@ -1,6 +1,6 @@
 ---
 title: How to Buy DYS
-description: How to Buy DYS: A Step-by-Step Guide to Getting Started with the Dyson Protocol
+description: "How to Buy DYS: A Step-by-Step Guide to Getting Started with the Dyson Protocol"
 hide_table_of_contents: true
 ---
 ## How to Buy DYS: A Step-by-Step Guide to Getting Started with the Dyson Protocol
