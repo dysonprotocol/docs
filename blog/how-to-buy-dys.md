@@ -4,8 +4,6 @@ description: "How to Buy DYS: A Step-by-Step Guide to Getting Started with the D
 hide_table_of_contents: true
 ---
 
-import "./styles.css"
-
 ## How to Buy DYS: A Step-by-Step Guide to Getting Started with the Dyson Protocol
 
 **Introduction**
