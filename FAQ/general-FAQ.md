@@ -1,7 +1,6 @@
 ---
 title: General FAQ
 description: general-faq
-hide_table_of_contents: true
 ---
 
 ##Genaral Frequently Asked Questions##

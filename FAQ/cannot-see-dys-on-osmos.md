@@ -1,7 +1,6 @@
 ---
 title: Why can I not see my Dyson mainnet balance on Osmosis?
 description: FAQ1
-hide_table_of_contents: true
 ---
 ###Why can I not see my Dyson mainnet balance on Osmosis?###
 
