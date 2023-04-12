@@ -4,7 +4,7 @@ description: Come and join our community and hunt down some bounties
 hide_table_of_contents: true
 ---
 
-## Bounties at Dyson Protocol: Come and join our community and hunt down some bounties ##
+## Come and join our community and hunt down some bounties ##
 
 Hey there, Dyson Protocol enthusiasts!
 
