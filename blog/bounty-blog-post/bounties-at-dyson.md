@@ -24,6 +24,7 @@ Here are the requirements:
 No front-end UI is required for this project. If you're up for the challenge, please check out the links provided to learn more about ranked and weighted voting. 
 
 https://en.wikipedia.org/wiki/Ranked_voting
+
 https://en.wikipedia.org/wiki/Weighted_voting
 
 So, what are you waiting for? Unleash your creativity, and let's make the Dyson Protocol even better together! Don't forget to have fun while you're at it, because that's what our community is all about. Join our Discord (https://discord.gg/BNHRHGdeNj) or tweet us your entries. 
