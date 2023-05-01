@@ -2,13 +2,13 @@
 
 The Dyson Protocol is a groundbreaking blockchain network that aims to simplify the creation and deployment of decentralized web applications (“dWApps”) by using the widely popular programming language, Python. The protocol's unique approach eliminates a major point of failure in crypto by **hosting the frontend user interface on-chain**. In this blog post, we will explore the various possibilities of utilizing the native DYS coins on the Dyson Protocol blockchain.
 
-![](Power of DYS coins.png)  
+![Power of DYS coins](Power of DYS coins.png)  
 
-###  What Are DYS Coins?
+##  What Are DYS Coins?
 
 DYS coins are the native tokens on the Dyson Protocol blockchain, which aims to lower the barrier of entry for developing distributed web applications. The primary goal of the Dyson Protocol is to empower developers to leverage their existing Python expertise and build dWApps with ease.
 
-###  What Can You Do With DYS Coins?
+##  What Can You Do With DYS Coins?
 
 If you own DYS coins, there are several exciting opportunities to harness the power of the Dyson Protocol blockchain. Here are some of the ways you can use your DYS coins to create and deploy smart contracts:
 
