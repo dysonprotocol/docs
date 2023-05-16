@@ -1,8 +1,9 @@
+---
 title: How To Use the Keplr Wallet & get Testnet DYS
 description: How To Use the Keplr Wallet & get Testnet DYS
 
 
-## Would you like to receive some testnet DYS tokens & start building DWapps on the testnet?
+## How to set up Keplr Wallet for DYS
 
 It only takes a few minutes to get setup. Here’s a quick step by step:
 
