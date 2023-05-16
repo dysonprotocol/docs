@@ -1,8 +1,7 @@
 ---
-title: How To Use the Keplr Wallet & get Testnet DYS
-description: How To Use the Keplr Wallet & get Testnet DYS
-
-
+title: How To Use the Keplr Wallet for DYS
+description: How To Use the Keplr Wallet for DYS
+---
 ## How to set up Keplr Wallet for DYS
 
 It only takes a few minutes to get setup. Here’s a quick step by step:
