@@ -2,8 +2,6 @@
 title: How To Use the Keplr Wallet and get your testnet DYS
 description: How To Use the Keplr Wallet and get your testnet DYS
 authors: [lumen]
-image: ./bg.png
-tags: [scripts, autonomous scripts, DeFi, DAOs]
 ---
 
 ### Would you like to receive some testnet DYS tokens to start building DWapps on the testnet?
