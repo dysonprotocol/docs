@@ -1,36 +1,32 @@
----
-title: How To Use the Keplr Wallet and get your testnet DYS
-description: How To Use the Keplr Wallet and get your testnet DYS
-authors: [lumen]
----
+title: How To Use the Keplr Wallet & get Testnet DYS
+description: How To Use the Keplr Wallet & get Testnet DYS
 
-### Would you like to receive some testnet DYS tokens to start building DWapps on the testnet?
+
+## Would you like to receive some testnet DYS tokens & start building DWapps on the testnet?
 
 It only takes a few minutes to get setup. Here’s a quick step by step:
 
 1. Install the Keplr wallet for Chrome. (There are other wallets but this is the easiest to get started with)
-![](./KeplrExtension.png)
+![](./Wallet1.png)
 
 2. Create an account.
-IMPORTANT: save your seed somewhere save and NEVER share it with anyone ever!
+IMPORTANT: Save your seed somewhere SAVE and NEVER share it with anyone ever!
+![](./Wallet2.png)
 
 3. Add Dyson Protocol as one of the suggested Chains
-![](./HowToUseKeplrWallet2.png)
-![](./HowToUseKeplrWallet3.png)
+![](./Wallet3.png)
+![](./Wallet4.png)
 
-4. Navigate your Chrome browser to https://dys.dysonvalidator.com/
-
-5. In the top right, click “Connect with Keplr”
-![](./HowToUseKeplrWallet1.png)
-
-6. Approve the connection the the Dyson Chain
-![](./HowToUseKeplrWallet4.png)
+4. Approve it!
+![](./Wallet6.png)
 
 7. Join the Dyson Protocol Discord.
 
 8. Copy your new DYS address into the channel #testnet-faucet and you will be receiving DYS into your Keplr wallet
 
-We hope to see you in the Discord!
+Your testnet coins should now show up in your Keplr wallet. If you have any questions, use the #help-me channel in Discor
+
+
 
 
 
