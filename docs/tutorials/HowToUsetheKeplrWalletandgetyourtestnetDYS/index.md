@@ -17,7 +17,7 @@ After installing Keplr, create a new account within the wallet. It is crucial to
 
 **Step 3: Access the Dyson Protocol Website**
 
-Navigate your Chrome browser to https://dys.dysonvalidator.com/.
+Navigate your Chrome browser to https://dys-testnet.dysonvalidator.com/
 
 
 **Step 4: Connect Keplr Wallet to Dyson Protocol**
@@ -26,7 +26,7 @@ On the Dyson Protocol website, locate the "Connect with Keplr" button in the top
 ![](./3.png)
 
 
-**Step 5: Accept the Connection to the Dyson Chain**
+**Step 5: Accept the Connection to the Dyson Protocol Chain**
 
 Once you've selected "Use Keplr," the connection to the Dyson Chain will be established. Follow the prompts in the Keplr wallet to approve the connection.
 ![](./4.png)
