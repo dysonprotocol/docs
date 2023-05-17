@@ -34,7 +34,7 @@ Once you've selected "Use Keplr," the connection to the Dyson Chain will be esta
 
 **Step 6: Join the Dyson Protocol Discord**
 
-To engage with the Dyson Protocol community, join the official Dyson Protocol Discord server https://discord.gg/BNHRHGdeNj . This platform allows for discussions, support, and staying up-to-date with the latest project developments.
+We invite you to join the official Dyson Protocol Discord server https://discord.gg/BNHRHGdeNj . This allows for discussions, support, and staying up-to-date with the latest project developments.
 
 By following these simple steps, you can set up your Keplr wallet, receive free testnet DYS tokens, and join the Dyson Protocol Discord community. Enjoy exploring the interface and testing interactions with the chain.r
 
