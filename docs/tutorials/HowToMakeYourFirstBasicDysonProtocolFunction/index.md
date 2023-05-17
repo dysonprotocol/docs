@@ -66,7 +66,6 @@ Click the “Run my_function” button to execute your function.
 Just like in step 5, your Keplr wallet will prompt you to determine the gas amount for running your function. Again, the default value should suffice for this simple function.
 
 
-
 **Step 10: ErrorOutofGas**
 
 If you receive an error showing
@@ -78,7 +77,7 @@ Simply run the function again, the gas will automatically adjust. The button “
 ![](./9.png)
 
 
-**Step 10: Review the output**
+**Step 11: Review the output**
 
 The output will be similar to that of the Query but will additionally include a transaction hash, indicating that the state has been saved on the Dyson Protocol  blockchain. As long as the result and Stdout match those from the Query, everything is in order.
 
