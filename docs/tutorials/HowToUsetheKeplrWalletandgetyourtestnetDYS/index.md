@@ -11,6 +11,7 @@ Begin by installing the Keplr wallet extension for Chrome. This wallet is recomm
 ![](./1.png)
 
 **Step 2: Create an Account and Safeguard Your Seed Phrase**
+
 After installing Keplr, create a new account within the wallet. It is crucial to save your seed phrase SECURELY and NEVER share it with anyone.
 ![](./2.png)
 
@@ -23,11 +24,12 @@ Navigate your Chrome browser to https://dys.dysonvalidator.com/.
 
 On the Dyson Protocol website, locate the "Connect with Keplr" button in the top right corner and click it to connect.
 ![](./3.png)
-![](./4.png)
+
 
 **Step 5: Accept the Connection to the Dyson Chain**
 
 Once you've selected "Use Keplr," the connection to the Dyson Chain will be established. Follow the prompts in the Keplr wallet to approve the connection.
+![](./4.png)
 ![](./5.png)
 
 **Step 6: Join the Dyson Protocol Discord**
