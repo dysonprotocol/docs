@@ -1,5 +1,5 @@
 ---
-title: Available Python Functions
+title: A Website On The Blockchain
 sidebar_position: 1
 ---
 # A Website on the Blockchain
