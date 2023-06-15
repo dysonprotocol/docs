@@ -86,4 +86,4 @@ A good price is one that you would be happy to sell the name for.
 
 ## How do I get Names?
 
-See [How to Register a Dys Name](tutorials/register-name)
+See [How to Register a Dys Name](/tutorials/register-name)
