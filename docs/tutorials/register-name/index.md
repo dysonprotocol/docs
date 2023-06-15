@@ -103,4 +103,5 @@ If you get the error `MemoryError('Out of Gas')`, you can either simply run the 
 
 :::
 
-<Image img={require('./register-name.png')} />
+![](./register-name.png)
+
