@@ -2,9 +2,11 @@
 title: Chain Upgrade v0.3.0
 description: Chain Upgrade v0.3.0
 authors: [sybil]
+image: ./bg.jpeg
 tags: [upgrade]
 ---
 
+![](./bg.jpeg)
 
 
 Dyson Protocol v0.3.0: A Leap Forward in Dwapps Development
