@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# TL;DR
+# Introduction
+
+## TL;DR
 - written in Python
 - frontend on-chain
 - automatic UI generation
@@ -10,7 +12,6 @@ sidebar_position: 1
 - schdule script execution
 - name service
 
-# Introduction
 
 
 ## What is the purpose of the Dyson Protocol?
