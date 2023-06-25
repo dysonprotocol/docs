@@ -9,7 +9,7 @@ sidebar_position: 1
 - frontend on-chain
 - automatic UI generation
 - full HTTP control
-- schdule script execution
+- schedule script execution
 - name service
 
 
