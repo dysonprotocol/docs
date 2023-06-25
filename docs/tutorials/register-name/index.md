@@ -1,10 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 import Image from '@theme/IdealImage';
 
 
-# How to Register Dys Names
+# Register a Dyson Protocol Name
 
 ## What are Names?
 

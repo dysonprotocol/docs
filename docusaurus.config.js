@@ -31,7 +31,7 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: ["@docusaurus/theme-mermaid"],
   presets: [
     [
       "classic",
@@ -58,6 +58,7 @@ const config = {
     ],
   ],
   plugins: [
+    require.resolve("docusaurus-plugin-image-zoom"),
     [
       "@docusaurus/plugin-ideal-image",
       {
@@ -69,78 +70,87 @@ const config = {
       },
     ],
   ],
-  themeConfig:
+  themeConfig: {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: "Dyson Protocol",
-        logo: {
-          alt: "Dyson Protocol Logo",
-          src: "img/logo-inverted.svg",
-          srcDark: "img/logo.svg",
+    zoom: {
+      selector: ".markdown :not(em) > img",
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: "rgb(255, 255, 255)",
+          dark: "rgb(50, 50, 50)",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "index",
-            position: "left",
-            label: "Docs",
-          },
-          {
-            to: "blog",
-            position: "left",
-            label: "Blog",
-          },
-          {
-            href: "https://dys.dysonprotocol.com/",
-            label: "Mainnet",
-            position: "right",
-          },
-          {
-            href: "https://dys-testnet.dysonvalidator.com/",
-            label: "Testnet",
-            position: "right",
-          },
-          {
-            href: "https://explorer.dys.dysonprotocol.com/",
-            label: "Explorer",
-            position: "right",
-          },
-          {
-            label: "API",
-            href: "https://dys-api.dysonprotocol.com/",
-            position: "right",
-          },
-          {
-            label: "Discord",
-            href: "https://discord.gg/BNHRHGdeNj",
-            position: "right",
-          },
-          {
-            label: "Twitter",
-            href: "https://twitter.com/DysonProtocol",
-            position: "right",
-          },
-          {
-            label: "GitLab",
-            href: "https://gitlab.com/dysonproject/dyson",
-            position: "right",
-          },
-          {
-            label: "GitHub",
-            href: "https://github.com/orgs/dysonprotocol/",
-            position: "right",
-          },
-        ],
       },
-      footer: {
-        copyright: `Except where otherwise noted, content on this site is licensed <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Public Domain</a>`,
+    },
+    navbar: {
+      title: "Dyson Protocol",
+      logo: {
+        alt: "Dyson Protocol Logo",
+        src: "img/logo-inverted.svg",
+        srcDark: "img/logo.svg",
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+      items: [
+        {
+          type: "doc",
+          docId: "index",
+          position: "left",
+          label: "Docs",
+        },
+        {
+          to: "blog",
+          position: "left",
+          label: "Blog",
+        },
+        {
+          href: "https://dys.dysonprotocol.com/",
+          label: "Mainnet",
+          position: "right",
+        },
+        {
+          href: "https://dys-testnet.dysonvalidator.com/",
+          label: "Testnet",
+          position: "right",
+        },
+        {
+          href: "https://explorer.dys.dysonprotocol.com/",
+          label: "Explorer",
+          position: "right",
+        },
+        {
+          label: "API",
+          href: "https://dys-api.dysonprotocol.com/",
+          position: "right",
+        },
+        {
+          label: "Discord",
+          href: "https://discord.gg/BNHRHGdeNj",
+          position: "right",
+        },
+        {
+          label: "Twitter",
+          href: "https://twitter.com/DysonProtocol",
+          position: "right",
+        },
+        {
+          label: "GitLab",
+          href: "https://gitlab.com/dysonproject/dyson",
+          position: "right",
+        },
+        {
+          label: "GitHub",
+          href: "https://github.com/orgs/dysonprotocol/",
+          position: "right",
+        },
+      ],
+    },
+    footer: {
+      copyright: `Except where otherwise noted, content on this site is licensed <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Public Domain</a>`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  },
 };
 
 module.exports = config;

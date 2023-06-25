@@ -1,11 +1,11 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 import Usage from '@site/src/components/Usage';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# How to Store and Fetch Data
+# Store and Fetch Data
 
 Saving to storage is a way to save state on the blockchain. This opens up a lot more possibilities for richer blockchain apps.
 

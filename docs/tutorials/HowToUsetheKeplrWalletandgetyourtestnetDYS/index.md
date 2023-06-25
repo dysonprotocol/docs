@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 title: How to Set Up Keplr Wallet for DYS
 description: How to Set Up Keplr Wallet for DYS
 ---

@@ -1,6 +1,6 @@
 ---
 title: A Website On The Blockchain
-sidebar_position: 1
+sidebar_position: 2
 ---
 # A Website on the Blockchain
 

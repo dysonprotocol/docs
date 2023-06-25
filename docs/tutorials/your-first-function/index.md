@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 id: your-first-function
 title: How to Make your first Basic Function
 description: How to Make your first Basic Function

@@ -6,13 +6,11 @@ sidebar_position: 5
 import docs from "./dyslang_docs.json";
 import styles from "./styles.css";
 
-export const Doc = (name, docs) => {
-  return <pre>{JSON.stringify(docs, null, 2)}</pre>;
-};
-
 export const DocList = ({ docs }) => {
+  console.log('DocList')
   toc.length = 0;
   return Object.keys(docs).map((item, i) => {
+    console.log(item)
     const d = docs[item];
     toc.push({ value: item, id: item, level: 2 });
     //const [lastmod, name] = toc[toc.length - 1].split("/");
