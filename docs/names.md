@@ -49,36 +49,35 @@ And the Script page on the dashboard:
 
 ## How long is a Name registered?
 
-Currently Names are registed for **30 days** as calculated by block height of the registration or extension transaction.
+Currently Names are registed for **31,536,000 blocks** as calculated by block height of the registration or extension transaction.
 
-The registration and extension time is not prorated. It is 30 days from when the transaction was sent. If a Name was registered 2 days ago and I want to change the price using [names/sendMsgSetPriceAndExtend](https://dys.dysonprotocol.com/commands?command=names/sendMsgSetPriceAndExtend), the new `expiration_height` will be 30 days from now.
+The registration and extension time is not prorated. It is 31,536,000 blocks (a little over 1 year) from when the transaction was sent. If a Name was registered 2 days ago and I want to change the price using [names/sendMsgSetPriceAndExtend](https://dys.dysonprotocol.com/commands?command=names/sendMsgSetPriceAndExtend), the new `expiration_height` will be 31,536,000 blocks from now.
 
 ## Why do Names have prices?
 
 Names are paid for using a form of [Harberger Tax](https://en.wikipedia.org/wiki/Harberger_Tax) which funds the [Community Pool](https://dys-api.dysonprotocol.com/cosmos/distribution/v1beta1/community_pool).
-Specifically Names are registered for 30 days and pay 1% of the asking price to the community pool. At any point within the 30 days the Name can be [Extended](https://dys.dysonprotocol.com/commands?command=names/sendMsgSetPriceAndExtend) with a new asking price and pay the fee of 1%.
+Specifically Names are registered for ~1 year and pay 1% of the asking price to the community pool. At any point before the expiration the Name can be [Extended](https://dys.dysonprotocol.com/commands?command=names/sendMsgSetPriceAndExtend) with a new asking price and pay the fee of 1%.
 
-In the future it will be possible to set longer experation times and be prorated for any fees already paid.
 
 ### Example
 
 - Alice registers example.dys and sets a price of 100dys (the minimum)
 - Alice pays 1dys for the registration which goes to the Community Pool
-- The example.dys will expire in 30 days
-- Before the 30 days Alice extends the Name and updates the asking price to 2000000 dys (two million)
+- The example.dys will expire in ~1 year
+- Before the expiration Alice extends the Name and updates the asking price to 2000000 dys (two million)
 - Alice pays 20000dys (twenty thousand is 1% of 2000000dys) for the Community Pool
 - Bob sees that example.dys is a good name for his project
 - Bob buys example.dy using [names/sendMsgBuy](https://dys.dysonprotocol.com/commands?command=names/sendMsgBuy)
 - Alice receives 2000000dys from Bob
 
-## Why 30 days and no rebate or prorating?
+## Why ~1 year and no rebate or prorating?
 
 Dyson may be the first chain to implement a Harberger Tax natively in the protocol for digitally scarce goods.
 
 This is very different from pure property rights like Namecoin (and the subsequent squatting problems they have).
 
 1. The goal is for people to be forced to review the price they have set and deliberately set the optimal price again to minimize surprises if someone buys it.
-2. It is easier to reason about: 30 days. No rebates. There is no opportunity for someone to accidentally pay for a decade and empty their wallet.
+2. It is easier to reason about: ~1 year. No rebates. There is no opportunity for someone to accidentally pay for a decade and empty their wallet.
 
 ## What is a good price?
 

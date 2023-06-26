@@ -1,8 +1,6 @@
 ---
 sidebar_position: 4
 ---
-import Image from '@theme/IdealImage';
-
 
 # Register a Dyson Protocol Name
 
@@ -10,10 +8,22 @@ import Image from '@theme/IdealImage';
 
 See the page [Dys Names](/names) for background and technical details.
 
-## Copy this code
 
-There is no UI for registering a name yet. So you will need a little programming experience.
-If you have never programmed, you may get frustrated because it looks complex, but don't give up, just ask for help in Discord.
+## Option 1: The UI way to register a name
+
+Simply use the web interface to register your name:
+
+1. Choose your name
+2. Decide on a price you would be willing to sell it for. This will be used to calculate the registration fee on setp 3
+3. Click "Register Name", you will pay 1% of your sell price now. 2 transaction will need ot be signed.
+4. If it was ucsscessful, you can click the link and see your name details
+
+![](./name-ui.png)
+![](./name-detail.png)
+
+## Option 2: The programatic way to register a name
+
+### Save the code to your script
 
 Copy this code to your Script and save it.
 
@@ -87,7 +97,7 @@ def app(environ, start_response):
 
 ```
 
-## Run the "Register name" function
+### Run the "Register name" function
 
 :::tip
 
