@@ -12,10 +12,10 @@ Minting coins is a crucial part of the cryptocurrency experience. On Dyson Proto
 See the page [Dys Names](/names) for background and technical details.
 :::
 
-Before we start, it's important to understand what Dys Names are. These are unique identifiers for assets within the Dyson Protocol. Refer to the link above for detailed information.
+Before we start, it's important to understand what Dys Names are. These are friendly identifiers for address within the Dyson Protocol. Refer to the link above for detailed information.
 
 :::warning What about Keplr Wallet
-All assets on Dyson Protocol are automatically available from the "My Assets" page. If you want your coin to appear in Keplr, consider submitting a GitHub pull request to the [Keplr Chain Registry](https://github.com/chainapsis/keplr-chain-registry/blob/main/cosmos/dyson-mainnet.json#L24)
+All assets on Dyson Protocol are automatically available from the "My Assets" page. However, if you want your coin to appear in Keplr, consider submitting a GitHub pull request to the [Keplr Chain Registry](https://github.com/chainapsis/keplr-chain-registry/blob/main/cosmos/dyson-mainnet.json#L24)
 :::
 
 ## Step-by-Step Guide to Minting Coins
