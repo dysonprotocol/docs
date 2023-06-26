@@ -26,18 +26,18 @@ See the full spec in the proto definition in [name.proto](https://gitlab.com/dys
 
 ## How are Names useful?
 
-Name owners have several privileges, better subdomains and ability to mint native coins. (TODO: make tutorial for minting)
+Name owners have several privileges, better subdomains and ability to [mint native coins](/tutorials/mint-coins/).
 
 Also Names can be used to verify your Discord account to get an advanced role.
 
 ## What do URLs look like with a Name?
 
-All Scripts are hosted at a subdomain like:
+By defaul all Scripts are hosted at a subdomain of the address like:
 
 - https://dys12cgan5v9jkhqu2v27c8c674cnqv8qs65r8tajg.dysonprotocol.com/
 - https://dys12cgan5v9jkhqu2v27c8c674cnqv8qs65r8tajg.dyson.lol/
 
-With a name, for exmaple `example.dys`, can use the shorter easier subdomain:
+But with a name, for exmaple `example.dys`, you can use the shorter, easier to rememeber subdomain:
 
 - https://example.dysonprotocol.com/
 - https://example.dyson.lol/
