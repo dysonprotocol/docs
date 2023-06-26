@@ -14,8 +14,8 @@ See the page [Dys Names](/names) for background and technical details.
 Simply use the web interface to register your name:
 
 1. Choose your name
-2. Decide on a price you would be willing to sell it for. This will be used to calculate the registration fee on setp 3
-3. Click "Register Name", you will pay 1% of your sell price now. 2 transaction will need ot be signed.
+2. Decide on a price you would be willing to sell it for. This will be used to calculate the registration fee on step 3
+3. Click "Register Name", you will pay 1% of your sell price now. 2 transaction will need to be signed.
 4. If it was ucsscessful, you can click the link and see your name details
 
 ![](./name-ui.png)
