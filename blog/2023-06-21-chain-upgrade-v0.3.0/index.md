@@ -49,7 +49,7 @@ A Streamlined UI Experience
 ---------------------------
 ![](./ui.png)
 
-The user interface (UI) has also received a major facelift. The script code editor is now resizable, and you can schedule functions directly from the function form. The new UI also includes a detailed view of names with related coin denominations and NFC Classes, forms for minting coins and NFTs, and an improved asset page.
+The user interface (UI) has also received a major facelift. The script code editor is now resizable, and you can schedule functions directly from the function form. The new UI also includes a detailed view of names with related coin denominations and NFC Classes, forms for minting [coins](/tutorials/mint-coins/) and NFTs, and an improved asset page.
 
 Eventful Scripts and Subscriptions
 ------------------------------------
